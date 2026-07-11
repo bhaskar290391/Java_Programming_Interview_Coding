@@ -1,0 +1,96 @@
+Program 1: Use of static methods in case of Inheritance-
+
+In inheritance, when a parent object holds memory for a child class, 
+the newly instantiated object triggers the execution of the parent class's static method.
+
+###########################################################################################################
+Program 2: Record classes in Java -
+
+These classes are used to hold immutable data. 
+These classes automatically create useful methods like constructors, equals(), hashCode() and toString() 
+based on the record's parts. This reduces boilerplate code and increases code readability.
+
+These are frequently used to represent data that is transferred between various parts of the application.
+
+##############################################################################################################
+Program 3 :IntStream.rangeClosed() function in Java –
+
+The IntStream class is part of the Java 8 Stream API. 
+IntStream.rangeClosed() method is used to create an ordered stream of int values within a specified range, 
+including both the start and end values. It is very useful when we need to iterate through a range of integers 
+in a functional programming manner.
+
+############################################################################################################
+Program 4: Concurrent hash map in Java -
+
+ConcurrentHashMap is a thread-safe Map implementation that enables concurrent access and modification by multiple 
+threads without the need for explicit synchronization. Instead of locking the entire map, it only locks the portion 
+that is being modified. This makes concurrent operations highly scalable and efficient. 
+
+It provides methods for atomic operations such as putIfAbsent(), replace() and remove(). 
+The putIfAbsent() method allows to add a key-value pair to the map if the key is not already present.
+
+#############################################################################################################
+Program 5 : Try with Resources in java –
+
+It is a try statement with one or more resources declared in it. Any class that implements the AutoCloseable 
+or Closeable interface can be used in this try statement.
+ 
+This statement makes resource management easier by immediately closing resources like files, sockets or database 
+connections when they are no longer needed. This prevents resource leaks and makes code clearer and easier to read.
+
+The try-with-resources statement is also referred to as the "Automatic Resource Management" (ARM) block.
+
+############################################################################################################
+program 06
+
+Default methods in java –
+ 
+Java 8 introduces default methods to allow the addition of new methods to interfaces without requiring current implementations
+ to provide implementations for these new methods.
+
+It ensures backward compatibility, offers optional method implementations and promotes code reuse by encapsulating common functionality
+ within interface methods.
+
+##################################################################################################################
+program 07
+
+Finally block in java –
+The finally block is used in conjunction with the try block to handle exceptions. 
+It is used to define a block of code that will be performed whether or not an exception is thrown.
+
+This block is particularly valuable for performing cleanup tasks such as closing resources, releasing database connections, 
+unlocking acquired resources or ensuring the execution of specific statements regardless of the presence of an exception.
+This block can accommodate logging or debugging statements, allowing us to record information about how a program was executed 
+and make problem solving easier.
+
+#########################################################################################################################
+program 08
+
+Stream.sorted () function in java –
+This method in Java is used to sort elements within a stream. It arranges elements either naturally or according to a custom
+comparator, making it easier to search and retrieve information effectively. 
+
+Stream.sorted() can be used to sort elements in natural order, while a custom comparator is used for more specific sorting criteria.
+ This method returns a new stream with the elements sorted as per the specified ordering criteria.
+ 
+ 
+############################################################################################################################
+Program 09 : Sealed Classes in java –
+A sealed class is a type of class that restricts which other classes or interfaces can extend or implement it. 
+It allows to control the inheritance hierarchy and limit the flexibility of class extension.
+
+Sealing allows classes and interfaces to specify which subtypes are allowed. Every allowed subclass must declare a modifier: final,
+sealed or non-sealed. It prevents unintentional class or interface expansions or alterations by disallowing unauthorized subclasses. 
+It simplifies maintenance by providing a comprehensive overview of all related subclasses. 
+
+##########################################################################################################################
+program 10
+
+Method References in Java –
+Method references are essentially a shortcut notation for lambda expressions that simply call a method. It helps to remove boilerplate
+code and makes working with functional interfaces easier.
+
+They can refer to static methods, object instance methods and constructors. 
+
+################################################################################################################################

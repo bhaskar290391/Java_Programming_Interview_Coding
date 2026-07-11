@@ -1,0 +1,42 @@
+Program 1: Use of static methods in case of Inheritance-
+
+In inheritance, when a parent object holds memory for a child class, 
+the newly instantiated object triggers the execution of the parent class's static method.
+
+###########################################################################################################
+Program 2: Record classes in Java -
+
+These classes are used to hold immutable data. 
+These classes automatically create useful methods like constructors, equals(), hashCode() and toString() 
+based on the record's parts. This reduces boilerplate code and increases code readability.
+
+These are frequently used to represent data that is transferred between various parts of the application.
+
+##############################################################################################################
+Program 3 :IntStream.rangeClosed() function in Java –
+
+The IntStream class is part of the Java 8 Stream API. 
+IntStream.rangeClosed() method is used to create an ordered stream of int values within a specified range, 
+including both the start and end values. It is very useful when we need to iterate through a range of integers 
+in a functional programming manner.
+
+############################################################################################################
+Program 4: Concurrent hash map in Java -
+
+ConcurrentHashMap is a thread-safe Map implementation that enables concurrent access and modification by multiple 
+threads without the need for explicit synchronization. Instead of locking the entire map, it only locks the portion 
+that is being modified. This makes concurrent operations highly scalable and efficient. 
+
+It provides methods for atomic operations such as putIfAbsent(), replace() and remove(). 
+The putIfAbsent() method allows to add a key-value pair to the map if the key is not already present.
+
+#############################################################################################################
+Program 5 : Try with Resources in java –
+
+It is a try statement with one or more resources declared in it. Any class that implements the AutoCloseable 
+or Closeable interface can be used in this try statement.
+ 
+This statement makes resource management easier by immediately closing resources like files, sockets or database 
+connections when they are no longer needed. This prevents resource leaks and makes code clearer and easier to read.
+
+The try-with-resources statement is also referred to as the "Automatic Resource Management" (ARM) block.
