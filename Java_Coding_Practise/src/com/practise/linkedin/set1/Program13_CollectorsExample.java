@@ -1,4 +1,4 @@
-package com.practise.linkedin.set2;
+package com.practise.linkedin.set1;
 
 import java.util.ArrayList;
 import java.util.List;
