@@ -13,7 +13,7 @@ public class Program106_AddAllCollection {
 		List<String> newStudList = new ArrayList<>();
 		newStudList.add("kanishk");
 		newStudList.add("sammy");
-
+	
 		existingStudList.addAll(newStudList);
 
 		System.out.println("Updated the student list " + existingStudList);
