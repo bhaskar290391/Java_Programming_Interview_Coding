@@ -5,7 +5,8 @@ import java.util.stream.Collectors;
 
 public class Display_Output {
 	public static void main(String[] args) {
-	       String A = "characters";
+	     
+			String A = "characters";
 	        String B = "alphabets";
 
 	        // Convert strings to sets of characters
